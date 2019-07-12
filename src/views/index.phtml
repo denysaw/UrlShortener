@@ -1,0 +1,16 @@
+<?php include "partials/header.phtml";?>
+
+<h1 class="cover-heading center">Welcome</h1>
+<p class="lead center">to our lightning-fast URL Shortener</p>
+
+<form class="center" autocomplete="off">
+    <div class="form-group">
+        <label for="url">Simply paste url to the field and click "Shorten It"</label>
+        <input type="text" class="form-control" id="url" placeholder="Paste url to shorten" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Shorten It</button>
+    <button type="button" class="btn copy btn-success hidden">Copy to clipboard</button>
+    <a type="button" class="btn new btn-link hidden" href="/">Shorten one more URL</a>
+</form>
+
+<?php include "partials/footer.phtml";?>
